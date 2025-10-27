@@ -4,4 +4,4 @@ def sumar(a, b):
     """
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("Ambos argumentos deben ser números")
-    return a - b
+    return a + b
